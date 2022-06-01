@@ -1,4 +1,10 @@
-
+#Given a positive integerm N find the factorial of N.
+#input
+#N=5
+#outupt
+#120
+#Explanation
+#5*4*3*2*1=120
 
 
 def factiorial(number):
@@ -9,7 +15,8 @@ def factiorial(number):
     return result
 
 
-print(factiorial(5))
-print(factiorial(0))
-
-print(factiorial(-1))
+assert 120 == factiorial(5)
+assert 720 == factiorial(6)
+assert 0 == factiorial(0)
+assert -1 == factiorial(-1)
+assert 1 == factiorial(1)
