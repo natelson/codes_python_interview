@@ -1,3 +1,12 @@
+'''
+Given two strings A and B. Find the characters that are not common in the two strings.
+
+Input:
+A = characters
+B = alphabets
+Output: bclpr
+'''
+
 def uncommon_character(string1, string2):
     missing = ''
     for character in string1:

@@ -1,3 +1,15 @@
+'''
+Given a alphanumeric string S, extract maximum numeric value from S.
+
+Example 1:
+
+Input:
+S = 100klh564abc365bg
+Output: 564
+Explanation: Maximum numeric value
+among 100, 564 and 365 is 564.
+'''
+
 def extract_max_number(string):
     numbers = '0123456789'
     list_numbers = []

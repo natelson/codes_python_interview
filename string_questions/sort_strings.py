@@ -1,3 +1,10 @@
+'''
+Given a string str containing only lower case alphabets, the task is to sort it in lexicographically-descending order.
+Input: str = "fora"
+Output: "rofa"
+Explanation: "rof" is in
+lexicographically-descending order.
+'''
 def orderString(word):
     charCount = [0]*len(word)
 

@@ -1,3 +1,12 @@
+'''
+Given two strings A and B, find if A is a subsequence of B.
+
+Input:
+A = prgai
+B = ilikeprogramming
+Output: 1
+Explanation: A is a subsequence of B.
+'''
 def exist_subsequence_any_position(string1, string2):
     if len(string2) < len(string1):
         return False
