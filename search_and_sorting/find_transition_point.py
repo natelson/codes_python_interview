@@ -1,3 +1,17 @@
+# Given a sorted array containing only 0s and 1s, find the transition point.
+#
+#
+# Example 1:
+#
+# Input:
+# N = 5
+# arr[] = {0,0,0,1,1}
+# Output: 3
+# Explanation: index 3 is the transition
+# point where 1 begins.
+
+#The last element that is equal to 0
+
 def find_transition_point(arr):
     for index in range(0, len(arr)):
         if arr[index] == 1:

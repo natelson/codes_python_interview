@@ -1,3 +1,18 @@
+# Given two lists V1 and V2 of sizes n and m respectively. Return the list of elements
+# common to both the lists and return the list in sorted order. Duplicates may be there in the output list.
+#
+# Example:
+#
+# Input:
+# n = 5
+# v1[] = {3, 4, 2, 2, 4}
+# m = 4
+# v2[] = {3, 2, 2, 7,2}
+# Output:
+# 2 2 3
+# Explanation:
+# The common elements in sorted order are {2 2 3}
+
 def find_common_elements(arr1, arr2):
     arr_major = []
     arr_less = []
